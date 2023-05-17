@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD user</title>
+    <link rel="stylesheet" href="des.css" />
+    <script type="module" src="validate.js"></script>
+</head>
+<body>
+    <main>
+        <h1 class="crud">CRUD Page Product</h1>
+  
+        <form action="#" id="form">
+          <div>
+            <label>Name:</label>
+            <input type="text " name="name" id="name" placeholder="Enter name please"/>
+            <p class="loi error er-name"></p>
+          </div>
+          <div>
+            <label>Price:</label>
+            <input type="text " name="price" id="price" placeholder="Enter price please"/>
+            <p class="loi error er-price"></p>
+          </div>
+          <div>
+            <label>Detail:</label>
+            <input type="text " name="detail" id="detail" placeholder="Enter detail please"/>
+            <p class="loi error er-detail"></p>
+          </div>
+          <div>
+            <label>Color:</label>
+            <input type="text " name="color" id="color" placeholder="Enter color please"/>
+            <p class="loi error er-color"></p>
+          </div>
+        </form>
+        <button style="margin: 0 40%;" type="button" class="btn" id="submit">Submit</button>
+      
+        <table>
+          <tr>
+            <td>Id</td>
+            <td>Name</td>
+            <td>Price</td>
+            <td>Detail</td>
+            <td>Color</td>
+            <td>Action</td>
+          </tr>
+          <tbody id="tbody">
+            
+          </tbody>
+        </table>
+      </main>
+</body>
+</html>
